@@ -44,28 +44,28 @@ INSERT INTO courses VALUES(3,"Css");
 INSERT INTO courses VALUES(4,"ReactJs");
 INSERT INTO courses VALUES(5,"NodeJs");
 
-INSERT INTO mentors(mentorname,mentoremail) VALUES ("Ragav","siva@gmail.com");
-INSERT INTO mentors(mentorname,mentoremail) VALUES ("Manoj","kumar@gmail.com");
-INSERT INTO mentors(mentorname,mentoremail) VALUES ("Mahendran","mano@gmail.com");
-INSERT INTO mentors(mentorname,mentoremail) VALUES ("Manickam","muthu@gmail.com");
-INSERT INTO mentors(mentorname,mentoremail) VALUES ("Gopal","selvi@gmail.com");
+INSERT INTO mentors(mentorname,mentoremail) VALUES ("Ragav","ragav@gmail.com");
+INSERT INTO mentors(mentorname,mentoremail) VALUES ("Manoj","manoj@gmail.com");
+INSERT INTO mentors(mentorname,mentoremail) VALUES ("Mahendran","mahendran@gmail.com");
+INSERT INTO mentors(mentorname,mentoremail) VALUES ("Manickam","manickam@gmail.com");
+INSERT INTO mentors(mentorname,mentoremail) VALUES ("Gopal","gopal@gmail.com");
 
 
 
 
-INSERT INTO topics(courseid,topic) VALUES(1,"loops and array");
-INSERT INTO topics(courseid,topic) VALUES(2,"Html basics");
-INSERT INTO topics(courseid,topic) VALUES(3,"CSS basics");
-INSERT INTO topics(courseid,topic) VALUES(4,"React basics");
-INSERT INTO topics(courseid,topic) VALUES(5,"NOde js basics");
+INSERT INTO topics(courseid,topic) VALUES(1," Html basics");
+INSERT INTO topics(courseid,topic) VALUES(2,"CSS basics");
+INSERT INTO topics(courseid,topic) VALUES(3," Javascript-loops and array");
+INSERT INTO topics(courseid,topic) VALUES(4,"React");
+INSERT INTO topics(courseid,topic) VALUES(5,"Node js");
 
 
 
 INSERT INTO tasks(courseid,task) VALUES (1,"Html task ");
-INSERT INTO tasks(courseid,task) VALUES (2,"javascript task");
-INSERT INTO tasks(courseid,task) VALUES (3,"NodeJs task");
-INSERT INTO tasks(courseid,task) VALUES (4,"Css task");
-INSERT INTO tasks(courseid,task) VALUES (5,"ReactJs basics");
+INSERT INTO tasks(courseid,task) VALUES (2,"Css task");
+INSERT INTO tasks(courseid,task) VALUES (3,"javascript task");
+INSERT INTO tasks(courseid,task) VALUES (4,"ReactJs task");
+INSERT INTO tasks(courseid,task) VALUES (5,"NodeJs task");
 
 
 
@@ -75,10 +75,10 @@ INSERT INTO tasks(courseid,task) VALUES (5,"ReactJs basics");
 
 
 
-INSERT INTO users(username,useremail,batchid) VALUES("Ram","hari@gmail.com",1);
-INSERT INTO users(username,useremail,batchid) VALUES("RAJ","hari@gmail.com",1);
-INSERT INTO users(username,useremail,batchid) VALUES("Ajith","hari@gmail.com",1);
-INSERT INTO users(username,useremail,batchid) VALUES("Ajay","hari@gmail.com",1);
+INSERT INTO users(username,useremail,batchid) VALUES("Ram","ram@gmail.com",1);
+INSERT INTO users(username,useremail,batchid) VALUES("RAJ","raj@gmail.com",1);
+INSERT INTO users(username,useremail,batchid) VALUES("Ajith","ajith@gmail.com",1);
+INSERT INTO users(username,useremail,batchid) VALUES("Ajay","ajay@gmail.com",1);
 
 
 SELECT * FROM users ;
